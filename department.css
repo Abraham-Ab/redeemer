@@ -1,0 +1,482 @@
+.admission{
+    background-image: linear-gradient(to top, rgba(6, 109, 8, 0.827)5%, rgba(0, 128, 0, 0)), url("images/t1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 655px;
+    position: relative;
+    margin-bottom: 40px;
+}
+.admission img{
+    position: absolute;
+    right: 3%;
+    top: 2%;
+    width: 16%;
+}
+.admission h1{
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    color: white;
+    padding: 40px 30px;
+    background-color: rgba(0, 0, 0, 0.532);
+    font-size: 50px;
+    border-left: 10px solid red;
+}
+.admission p{
+    position: absolute;
+    left: 12%;
+    bottom: 13%;
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+.sects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 24%;
+    background-color: #27cf11;
+    font-size: 22px;
+    border-radius: 20px 20px 0 0;
+    -webkit-border-radius: 20px 20px 0 0;
+    -moz-border-radius: 20px 20px 0 0;
+    -ms-border-radius: 20px 20px 0 0;
+    -o-border-radius: 20px 20px 0 0;
+}
+.sects a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    /* border-bottom: 2px solid yellow; */
+}
+.sects a:nth-child(1),
+.sects a:nth-child(2),
+.sects a:nth-child(3){
+    border-right: 2px solid yellow;
+}
+.sects a:nth-child(1){
+    border-radius: 20px 0 0 0;
+    -webkit-border-radius: 20px 0 0 0;
+    -moz-border-radius: 20px 0 0 0;
+    -ms-border-radius: 20px 0 0 0;
+    -o-border-radius: 20px 0 0 0;
+}
+.sects a:nth-child(4){
+    border-radius: 0 20px 0 0;
+    -webkit-border-radius: 0 20px 0 0;
+    -moz-border-radius: 0 20px 0 0;
+    -ms-border-radius: 0 20px 0 0;
+    -o-border-radius: 0 20px 0 0;
+}
+.sects a:hover{
+    background-color: yellow;
+    color: red;
+}
+
+/* -----------------------Section heading----------------------- */
+.sl-mob{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+    color: red;
+}
+
+.bar{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    position: relative;
+}
+.bar p{
+    border-bottom: 2px solid grey;
+    width: 80%;
+}
+.bar img{
+    position: absolute;
+    width: 50px;
+    top: -23px;
+}
+
+/* -----------------------Science department----------------------- */
+.science-main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.science1{
+    width: 35%;
+    margin-right: 30px;
+}
+.science1 img{
+    width: 100%;
+}
+.science1-info{
+    border: 2px solid #27cf11;
+    padding: 27.5px 20px;
+    text-align: center;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.science1-info p{
+    margin-bottom: 30px;
+}
+.science1-info a{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid blue;
+}
+.science1-info a:hover{
+    background-color: #27cf11;
+    color: yellow;
+    border: 1px solid red;
+}
+.science1-pic{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.science2{
+    width: 48%;
+    border: 3px solid #27cf11;
+}
+.science2-d1, .science2-d2, .science2-d3{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.science2-d1 p{
+    padding: 30px;
+    background-color: #27cf11;
+    color: white;
+    font-size: 17px;
+}
+.science2-d2 p{
+    padding: 30px;
+    font-size: 17.2px;
+}
+.science2-d3 p{
+    padding: 30px;
+    background-color: #27cf11;
+    color: white;
+    font-size: 18px;
+}
+
+
+/* -----------------------Languages department----------------------- */
+.lang-main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.lang1{
+    width: 35%;
+    margin-right: 30px;
+}
+.lang1 img{
+    width: 100%;
+}
+.lang1-info{
+    border: 2px solid #27cf11;
+    padding: 27.5px 20px;
+    text-align: center;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.lang1-info p{
+    margin-bottom: 30px;
+}
+.lang1-info a{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid blue;
+}
+.lang1-info a:hover{
+    background-color: #27cf11;
+    color: yellow;
+    border: 1px solid red;
+}
+.lang1-pic{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.lang2{
+    width: 48%;
+    border: 3px solid #27cf11;
+}
+.lang2-dd{
+    display: flex;
+    justify-content: center;
+}
+.lang2-d1, .science2-d2, .science2-d3{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.lang2-d1 p{
+    padding: 30px;
+    background-color: #27cf11;
+    color: white;
+    font-size: 17px;
+}
+.lang2-d2 p{
+    padding: 30px;
+    font-size: 17.2px;
+}
+.lang2-d3 p{
+    padding: 30px;
+    border-left: 2px solid #27cf11;
+    font-size: 18px;
+}
+
+
+/* -----------------------Science department----------------------- */
+#arts-humanities h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(17, 49, 164);
+    font-family: Cooper Black;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.art-main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.art1{
+    width: 35%;
+    margin-right: 30px;
+}
+.art1 img{
+    width: 100%;
+}
+.art1-info{
+    border: 2px solid #27cf11;
+    padding: 27.5px 20px;
+    text-align: center;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.art1-info p{
+    margin-bottom: 30px;
+}
+.art1-info a{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid blue;
+}
+.art1-info a:hover{
+    background-color: #27cf11;
+    color: yellow;
+    border: 1px solid red;
+}
+.art1-pic{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.art2{
+    width: 48%;
+    border: 3px solid #27cf11;
+}
+.art2-d1, .science2-d2, .science2-d3{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.art2-d1 p{
+    padding: 30px;
+    background-color: #27cf11;
+    color: white;
+    font-size: 17px;
+}
+.art2-d2 p{
+    padding: 30px;
+    font-size: 16.76px;
+}
+.art2-d3 p{
+    padding: 30px;
+    background-color: #27cf11;
+    color: white;
+    font-size: 17.5px;
+}
+
+
+/* -----------------------Humanities department----------------------- */
+.hum-main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 70px;
+}
+.hum1{
+    width: 35%;
+    margin-right: 30px;
+}
+.hum1 img{
+    width: 100%;
+}
+.hum1-info{
+    border: 2px solid #27cf11;
+    padding: 27.5px 20px;
+    text-align: center;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.hum1-info p{
+    margin-bottom: 30px;
+}
+.hum1-info a{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid blue;
+}
+.hum1-info a:hover{
+    background-color: #27cf11;
+    color: yellow;
+    border: 1px solid red;
+}
+.hum1-pic{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.hum2{
+    width: 48%;
+    border: 3px solid #27cf11;
+}
+.hum2-dd{
+    display: flex;
+    justify-content: center;
+}
+.hum2-d1, .science2-d2, .science2-d3{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.hum2-d1 p{
+    padding: 30px;
+    background-color: #27cf11;
+    color: white;
+    font-size: 17px;
+}
+.hum2-d2 p{
+    padding: 30px;
+    font-size: 19px;
+}
+.hum2-d3 p{
+    padding: 30px;
+    border-left: 2px solid #27cf11;
+    font-size: 18px;
+}
+
+
+/* -----------------------Science department----------------------- */
+.it-main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.it1{
+    width: 35%;
+    margin-right: 30px;
+}
+.it1 img{
+    width: 100%;
+}
+.it1-info{
+    border: 2px solid #27cf11;
+    padding: 27.5px 20px;
+    text-align: center;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.it1-info p{
+    margin-bottom: 30px;
+}
+.it1-info a{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid blue;
+}
+.it1-info a:hover{
+    background-color: #27cf11;
+    color: yellow;
+    border: 1px solid red;
+}
+.it1-pic{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.it2{
+    width: 48%;
+    border: 3px solid #27cf11;
+}
+.it2-d1, .science2-d2, .science2-d3{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.it2-d1 p{
+    padding: 30px;
+    background-color: #27cf11;
+    color: white;
+    font-size: 17px;
+}
+.it2-d2 p{
+    padding: 30px;
+    font-size: 17.2px;
+}
+.it2-d3 p{
+    padding: 30px;
+    background-color: #27cf11;
+    color: white;
+    font-size: 18px;
+}

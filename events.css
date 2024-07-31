@@ -1,0 +1,467 @@
+.sl-mob{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+    color: red;
+}
+
+.bar{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    position: relative;
+}
+.bar p{
+    border-bottom: 2px solid grey;
+    width: 80%;
+}
+.bar img{
+    position: absolute;
+    width: 50px;
+    top: -23px;
+}
+
+
+/* -------------------------Cultural Gala---------------------- */
+.gala1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gala11{
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.gala11 img{
+    width: 100%;
+}
+.gala11 p{
+    width: 770px;
+    position: absolute;
+    left: 35px;
+    bottom: 25px;
+    background-color: rgba(6, 6, 6, 0.448);
+    color: white;
+    padding: 20px;
+}
+.gala12{
+    width: 26%;
+    margin-left: 20px;
+    position: relative;
+}
+
+.gala12 img{
+    width: 100%;
+}
+.gala-img{
+    margin-bottom: 10px;
+}
+.gala12-p1{
+    position: absolute;
+    top: 227px;
+    left: 0px;
+    background-color: rgba(6, 6, 6, 0.448);
+    color: white;
+    padding: 5px 102px;
+}
+.gala12-p2{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(6, 6, 6, 0.448);
+    color: white;
+    padding: 5px 111px;
+}
+.gala2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.gala2 img{
+    width: 80%;
+}
+.gala2-p1{
+    position: absolute;
+    left: 160px;
+    top: 120px;
+    width: 400px;
+    background-color: #27cf11;
+    color: white;
+    padding: 20px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.gala2-p2{
+    position: absolute;
+    right: 130px;
+    top: 120px;
+    width: 400px;
+    background-color: #27cf11;
+    color: white;
+    padding: 20px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.gala2-p3{
+    position: absolute;
+    left: 90px;
+    bottom: 100px;
+    width: 300px;
+    padding: 20px;
+    border: 5px solid #27cf11;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.gala2-p4{
+    position: absolute;
+    right: 50px;
+    bottom: 100px;
+    width: 300px;
+    padding: 20px;
+    border: 5px solid #27cf11;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.writ-btn{
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 60px;
+}
+.writ-btn a{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid blue;
+}
+.writ-btn a:hover{
+    background-color: #27cf11;
+    color: yellow;
+    border: 1px solid red;
+}
+
+/* --------------------Sports Day--------------------- */
+.spc{
+    padding-bottom: 30px;
+}
+.sp1, .sp2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 40px;
+}
+.sp11, .sp12,
+.sp21, .sp22{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.sp11 img, .sp12 img,
+.sp21 img, .sp22 img{
+    width: 60%;
+    position: absolute;
+    top: -100px;
+    left: 130px;
+    border: 5px solid #27cf11;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.sp11 p, .sp12 p,
+.sp21 p, .sp22 p{
+    width: 90%;
+    background-color: #27cf117c;
+    border: 5px solid #27cf11;
+    padding: 160px 20px 20px 20px;
+    position: relative;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+/* ---------------------Student Campaigns----------------- */
+.camp1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.camp1-img{
+    width: 40%;
+}
+.camp1-img img{
+    width: 100%;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.camp1-bg{
+    width: 50%;
+    position: relative;
+}
+.camp1-bg img{
+    width: 100%;
+}
+.camp1-bg P{
+    position: absolute;
+    top: 40px;
+    left: 130px;
+    width: 80%;
+}
+.camp2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.camp2-img{
+    width: 40%;
+}
+.camp2-img img{
+    width: 100%;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.camp2-bg{
+    width: 50%;
+    position: relative;
+}
+.camp2-bg img{
+    width: 100%;
+}
+.camp2-bg P{
+    position: absolute;
+    top: 25px;
+    right: 120px;
+    width: 80%;
+}
+
+
+/* --------------------Blessing Day----------------------- */
+.bl1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.bl1 img{
+    width: 65%;
+}
+.bl1 p{
+    width: 25%;
+    padding: 20px 30px;
+    background-color: #27cf11;
+    color: white;
+}
+.bl2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.bl2 img{
+    width: 40%;
+    bottom: 20%;
+    margin-right: 40%;
+}
+.bl2 p{
+    position: absolute;
+    top: 13.5%;
+    right: 15%;
+    width: 40%;
+    border: 3px solid #27cf11;
+    padding: 20px;
+    font-size: 18px;
+}
+.bl3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.bl3 img{
+    width: 40%;
+    bottom: 20%;
+    margin-left: 40%;
+}
+.bl3 p{
+    position: absolute;
+    top: 13.5%;
+    left: 15%;
+    width: 40%;
+    border: 3px solid #27cf11;
+    padding: 20px;
+    font-size: 18px;
+}
+
+
+
+
+/* ----------------------More Events-------------------- */
+.more-fac-cont{
+    margin-bottom: 30px;
+}
+.mySlides {
+    display: none
+}
+
+.pac{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+.slideshow-container img{
+    width: 45%;
+}
+.img-desc{
+    width: 35%;
+    padding: 25px;
+    font-size: 18px;
+    text-align: justify;
+    border-top: 2px solid #27cf11;
+    border-right: 2px solid #27cf11;
+    border-bottom: 2px solid #27cf11;
+}
+.img-desc h3{
+    text-align: center;
+    color: rgb(17, 49, 164);
+    font-size: 25px;
+}
+
+
+
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #27cf11;
+  font-weight: bold;
+  font-size: 50px;
+  transition: 0.6s ease;
+  user-select: none;
+}
+.prev{
+    left: 80px;
+    border-radius: 30px 0px 0px 30px;
+    -webkit-border-radius: 30px 0px 0px 30px;
+    -moz-border-radius: 30px 0px 0px 30px;
+    -ms-border-radius: 30px 0px 0px 30px;
+    -o-border-radius: 30px 0px 0px 30px;
+}
+
+
+/* Position the "next button" to the right */
+.next {
+  right: 80px;
+  border-radius: 0px 30px 30px 0px;
+  -webkit-border-radius: 0px 30px 30px 0px;
+  -moz-border-radius: 0px 30px 30px 0px;
+  -ms-border-radius: 0px 30px 30px 0px;
+  -o-border-radius: 0px 30px 30px 0px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #27cf11;
+  color: yellow;
+}
+
+/* Caption text */
+.text {
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 2px 12px;
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  width: 45%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: rgb(17, 49, 164);
+  font-size: 16px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  left: 160px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+ .dot:hover {
+  background-color: yellow;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}

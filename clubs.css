@@ -1,0 +1,454 @@
+.sl-mob{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+    color: red;
+}
+
+.bar{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    position: relative;
+}
+.bar p{
+    border-bottom: 2px solid grey;
+    width: 80%;
+}
+.bar img{
+    position: absolute;
+    width: 50px;
+    top: -23px;
+}
+
+/* ------------------Debate Club ----------------- */
+.debate-cont0{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.debate-d1{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    border-right: 2px solid #27cf11;
+    border-radius: 0 0 20px 0;
+    -webkit-border-radius: 0 0 20px 0;
+    -moz-border-radius: 0 0 20px 0;
+    -ms-border-radius: 0 0 20px 0;
+    -o-border-radius: 0 0 20px 0;
+}
+
+.debate-d1 p{
+    font-size: 17px;
+    padding: 0 20px 20px 10px;
+    text-align: justify;
+}
+.debate-d2{
+    width: 50%;
+    padding: 20px;
+    border-left: 2px solid #27cf11;
+    border-radius: 0 0 0 20px;
+    -webkit-border-radius: 0 0 0 20px;
+    -moz-border-radius: 0 0 0 20px;
+    -ms-border-radius: 0 0 0 20px;
+    -o-border-radius: 0 0 0 20px;
+}
+.debate-d2 img{
+    width: 100%;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+.debate-cont1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.debate-cont2{
+    width: 25%;
+}
+
+.debate-cont2 img{
+    width: 100%;
+    height: 90%;
+}
+.debate-cont2 h3{
+    color: blue;
+    text-align: center;
+}
+.debate-cont3{
+    width: 65%;
+    margin-left: 20px;
+}
+.debate-desc1, .debate-desc2{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+    border-bottom: 5px solid #27cf11;
+}
+.debate-desc1{
+    margin-bottom: 30px;
+}
+.debate-desc1 p, .debate-desc2 p{
+    width: 55%;
+    text-align: right;
+    margin-right: 30px;
+}
+.debate-desc1 img, .debate-desc2 img{
+    width: 35%;
+    border-left: 5px solid #27cf11;
+    border-top: 5px solid #27cf11;
+    border-right: 5px solid #27cf11;
+    border-radius: 40px 0 0 0;
+    -webkit-border-radius: 40px 0 0 0;
+    -moz-border-radius: 40px 0 0 0;
+    -ms-border-radius: 40px 0 0 0;
+    -o-border-radius: 40px 0 0 0;
+}
+
+
+/* ------------------Scout Club ----------------- */
+.scout1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.scout1-img{
+    width: 55%;
+}
+.scout1-img img{
+    width: 100%;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+.scout1-desc{
+    width: 30%;
+    margin-left: 30px;
+}
+.scout1-desc .p1, .scout1-desc .p2, .scout1-desc .p3{
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.scout1-desc h6{
+    width: 10%;
+    font-size: 30px;
+    color: #27cf11;
+}
+.scout1-desc p{
+    width: 80%;
+}
+.scout2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.scout-desc21{
+    width: 30%;
+    border: 2px solid #27cf11;
+    padding: 20px;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 0 50px 0 50px;
+    -webkit-border-radius: 0 50px 0 50px;
+    -moz-border-radius: 0 50px 0 50px;
+    -ms-border-radius: 0 50px 0 50px;
+    -o-border-radius: 0 50px 0 50px;
+}
+.scout-desc22{
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    align-items: center;
+    padding: 30px;
+    color: white;
+    width: 60%;
+    margin-left: 30px;
+    background-color: #27cf11;
+}
+
+
+/* ------------------Writers club----------------- */
+.writer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.writer1{
+    width: 30%;
+    background-image: url("images/greenbg1.png");
+    background-size: cover;
+    color: white;
+    padding: 0 20px 20px 20px;
+}
+.writer1 img{
+    width: 100%;
+    border-radius: 80px;
+    -webkit-border-radius: 80px;
+    -moz-border-radius: 80px;
+    -ms-border-radius: 80px;
+    -o-border-radius: 80px;
+}
+.writer1 p{
+    font-weight: 600;
+    font-size: 17px;
+}
+.writer2{
+    width: 60%;
+}
+.writer-d1, .writer-d2{
+    position: relative;
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+.writer-d1{
+    margin-bottom: 30px;
+}
+.writer-d1 img, .writer-d2 img{
+    position: absolute;
+    width: 40%;
+    bottom: 30px;
+    left: 50px;
+}
+.writer-d1 p, .writer-d2 p{
+    width: 60%;
+    padding: 40px 30px 40px 70px;
+    border: 5px solid #27cf11;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+.writ-btn{
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 90px;
+}
+.writ-btn a{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid blue;
+}
+.writ-btn a:hover{
+    background-color: #27cf11;
+    color: yellow;
+    border: 1px solid red;
+}
+
+/* -----------------------Scripture Union ---------------------- */
+.script-cont{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+.script1{
+    width: 70%;
+    margin-right: 10px;
+}
+.script11, .script12{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.script11{
+    margin-bottom: 20px;
+}
+.script11 img, .script12 img{
+    width: 50%;
+}
+.script11 p, .script12 p{
+    margin-left: 20px;
+    background-color: #27cf11;
+    width: 50%;
+    padding: 20px;
+    color: white;
+}
+.script2{
+    width: 20%;
+    border: 5px solid #27cf11;
+    border-radius: 100px 100px 0 0;
+    -webkit-border-radius: 300px 300px 0 0;
+    -moz-border-radius: 100px 100px 0 0;
+    -ms-border-radius: 100px 100px 0 0;
+    -o-border-radius: 100px 100px 0 0;
+}
+.script2-img{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.script2-img img{
+    width: 80%;
+    border-radius: 60px 60px 40px 40px;
+    -webkit-border-radius: 60px 60px 40px 40px;
+    -moz-border-radius: 60px 60px 40px 40px;
+    -ms-border-radius: 60px 60px 40px 40px;
+    -o-border-radius: 60px 60px 40px 40px;
+}
+.script2 p{
+    padding: 20px;
+    text-align: left;
+    font-size: 25px;
+    font-family: Agency FB;
+    color: rgb(17, 49, 164);
+}
+
+
+/* -------------------------More clubs------------------- */
+.more-fac-cont{
+    margin-bottom: 30px;
+}
+.mySlides {
+    display: none
+}
+
+.pac{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+.slideshow-container img{
+    width: 45%;
+}
+.img-desc{
+    width: 35%;
+    padding: 25px;
+    font-size: 18px;
+    text-align: justify;
+    border-top: 2px solid #27cf11;
+    border-right: 2px solid #27cf11;
+    border-bottom: 2px solid #27cf11;
+}
+.img-desc h3{
+    text-align: center;
+    color: rgb(17, 49, 164);
+    font-size: 25px;
+}
+
+
+
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #27cf11;
+  font-weight: bold;
+  font-size: 50px;
+  transition: 0.6s ease;
+  user-select: none;
+}
+.prev{
+    left: 80px;
+    border-radius: 30px 0px 0px 30px;
+    -webkit-border-radius: 30px 0px 0px 30px;
+    -moz-border-radius: 30px 0px 0px 30px;
+    -ms-border-radius: 30px 0px 0px 30px;
+    -o-border-radius: 30px 0px 0px 30px;
+}
+
+
+/* Position the "next button" to the right */
+.next {
+  right: 80px;
+  border-radius: 0px 30px 30px 0px;
+  -webkit-border-radius: 0px 30px 30px 0px;
+  -moz-border-radius: 0px 30px 30px 0px;
+  -ms-border-radius: 0px 30px 30px 0px;
+  -o-border-radius: 0px 30px 30px 0px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #27cf11;
+  color: yellow;
+}
+
+/* Caption text */
+.text {
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 2px 12px;
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  width: 45%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: rgb(17, 49, 164);
+  font-size: 16px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  left: 160px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+ .dot:hover {
+  background-color: yellow;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+

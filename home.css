@@ -1,0 +1,725 @@
+html{
+    height: 100%;
+}
+main{
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+}
+/* ----------------------Welcoming slider---------------------------- */
+.more-fac-cont{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+}
+.mySlides {
+    display: none
+}
+
+.pac{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+.slideshow-container img{
+    width: 50%;
+}
+.img-desc{
+    width: 40%;
+    padding: 25px;
+    font-size: 17px;
+    text-align: justify;
+    border-top: 2px solid #27cf11;
+    border-right: 2px solid #27cf11;
+    border-bottom: 2px solid #27cf11;
+}
+.img-desc h3{
+    text-align: center;
+    color: rgb(17, 49, 164);
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #27cf11;
+  font-weight: bold;
+  font-size: 50px;
+  transition: 0.6s ease;
+  user-select: none;
+}
+.prev{
+    left: 18px;
+    border-radius: 30px 0px 0px 30px;
+    -webkit-border-radius: 30px 0px 0px 30px;
+    -moz-border-radius: 30px 0px 0px 30px;
+    -ms-border-radius: 30px 0px 0px 30px;
+    -o-border-radius: 30px 0px 0px 30px;
+}
+
+
+/* Position the "next button" to the right */
+.next {
+  right: 19px;
+  border-radius: 0px 30px 30px 0px;
+  -webkit-border-radius: 0px 30px 30px 0px;
+  -moz-border-radius: 0px 30px 30px 0px;
+  -ms-border-radius: 0px 30px 30px 0px;
+  -o-border-radius: 0px 30px 30px 0px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #27cf11;
+  color: yellow;
+}
+
+/* Caption text */
+.text {
+  font-size: 25px;
+  font-weight: 700;
+  padding: 2px 12px;
+  position: absolute;
+  bottom: 1px;
+  left: 5%;
+  width: 50%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: white;
+  font-size: 16px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  left: 5%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+ .dot:hover {
+  background-color: yellow;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+.img-desc-btn{
+    margin-top: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.img-desc-btn a{
+    text-decoration: none;
+    background-color: #27cf11;
+    padding: 10px 20px;
+    color: white;
+}
+.img-desc-btn a:hover{
+    box-shadow: 0 0 10px 10px yellow;
+}
+
+
+
+
+/* -------------------------Introduction Section----------------------- */
+.intro-cont{
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-top: 20px;
+    padding-bottom: 2px;
+    margin-bottom: 30px;
+}
+.h1-main{
+    text-align: center;
+    font-family: Cooper black;
+    font-size: 40px;
+    color: red;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.intro-p{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.intro-p p{
+    width: 90%;
+    text-align: center;
+    font-size: 17px;
+}
+.cores-cont{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 45px;
+    color: white;
+}
+.cores-cont div{
+    padding: 20px 30px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.cores-cont div:hover{
+    box-shadow: 0 0 20px 5px black;
+}
+.vision{
+    width: 25%;
+    background-color: #27cf11;
+    margin-right: 40px;
+    font-size: 17px;
+}
+.mission{
+    width: 30%;
+    background-color: blue;
+    margin-right: 40px;
+}
+.motto{
+    width: 25%;
+    background-color: #27cf11;
+}
+
+
+
+/* ---------------------------About Section----------------------------- */
+#about{
+    background-image: url(images/hs18.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.school-profile{
+    background-color: rgba(0, 0, 255, 0.436);
+    color: white;
+    padding-bottom: 30px;
+}
+.profile-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+.prof-text{
+    width: 50%;
+    margin-right: 30px;
+    font-size: 18px;
+}
+.profile-cont img{
+    width: 40%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.prof-btn{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.prof-btn a{
+    text-decoration: none;
+    background-color: #27cf11;
+    padding: 10px 20px;
+    color: white;
+    font-size: 17px;
+}
+.prof-btn a:hover{
+    box-shadow: 0 0 10px 10px white;
+}
+
+
+/* ---------------------------Departments Section----------------------------- */
+.dep-container{
+    position: relative;
+    width: 100%;
+    height: 650px;
+    margin-bottom: 20px;
+}
+.dep-container img{
+    width: 40%;
+    position: absolute;
+    left: 8%;
+    top: 17%;
+    z-index: 2;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.dep-container p{
+    width: 50%;
+    position: absolute;
+    right: 7%;
+    top: 10%;
+    font-size: 18px;
+    z-index: 1;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 5px solid #27cf11;
+    padding: 60px 30px 60px 100px;
+    border-radius: 50px 0 50px 0;
+    -webkit-border-radius: 50px 0 50px 0;
+    -moz-border-radius: 50px 0 50px 0;
+    -ms-border-radius: 50px 0 50px 0;
+    -o-border-radius: 50px 0 50px 0;
+}
+.dep-btn{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    bottom: 3%;
+}
+.dep-btn a{
+    text-decoration: none;
+    background-color: red;
+    padding: 10px 20px;
+    color: white;
+    font-size: 17px;
+}
+.dep-btn a:hover{
+    box-shadow: 0 0 10px 10px #27cf11;
+}
+
+/* -------------------------Academics Section------------------------ */
+.acad-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #27cf11;
+    margin-bottom: 30px;
+}
+.acad-text{
+    width: 50%;
+    padding: 20px 50px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+.acad-cont img{
+    width: 50%;
+}
+.acad-btn{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.acad-btn a{
+    text-decoration: none;
+    background-color: red;
+    padding: 10px 20px;
+    color: white;
+    font-size: 17px;
+}
+.acad-btn a:hover{
+    box-shadow: 0 0 10px 10px white;
+}
+
+.acad-overlay-cont {
+    position: relative;
+    width: 50%;
+  }
+.acad-overlay-cont .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+.acad-overlay-cont  .overlay {
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 139, 186, 0.7);
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+  }
+.acad-overlay-cont:hover .overlay {
+    height: 100%;
+  }
+.acad-overlay-cont  .text {
+    color: white;
+    background-color: rgba(0, 139, 186, 0);
+    font-size: 20px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+.acad-overlay-cont  .text p{
+    font-size: 17px;
+    font-weight: 400;
+    width: 100%;
+}
+
+
+
+/* -------------------------Events Section------------------------ */
+.events1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.events1 p{
+    width: 90%;
+    text-align: center;
+    font-size: 18px;
+}
+.events2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.event-card1 {
+    position: relative;
+    width: 40%;
+    margin-right: 30px;
+  }
+.event-card1 .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+.event-card1  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:  rgba(9, 186, 0, 0.8);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+.event-card1:hover .overlay {
+    width: 100%;
+  }
+.event-card1  .text {
+    color: white;
+    background-color: rgba(0, 139, 186, 0);
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+.event-card1  .text p{
+    font-size: 17px;
+    font-weight: 400;
+    width: 100%;
+}
+
+.event-card2 {
+    position: relative;
+    width: 40%;
+  }
+.event-card2 .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+.event-card2  .overlay {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: rgba(9, 186, 0, 0.8);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+.event-card2:hover .overlay {
+    width: 100%;
+  }
+.event-card2  .text {
+    color: white;
+    background-color: rgba(0, 139, 186, 0);
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+.event-card2  .text p{
+    font-size: 17px;
+    font-weight: 400;
+    width: 100%;
+}
+.event-btn{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.event-btn a{
+    text-decoration: none;
+    background-color: red;
+    padding: 10px 20px;
+    color: white;
+    font-size: 17px;
+}
+.event-btn a:hover{
+    box-shadow: 0 0 10px 10px #27cf11;
+}
+
+/* ------------------------Clubs Section-------------------------- */
+#clubs{
+    background-color: #27cf11;
+    padding-bottom: 50px;
+}
+.clubs1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.clubs1 p{
+    width: 90%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+}
+.clubs2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.clubs2-img{
+    width: 40%;
+    position: relative;
+    margin-right: 30px;
+}
+.clubs2-img img{
+    width: 100%;
+}
+.clubs2-img p{
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+}
+.clubs2-text{
+    width: 45%;
+    color: white;
+    padding: 17px 30px;
+    border: 2px solid white;
+}
+.clubs2-text p{
+    font-size: 17px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.club-btn{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.club-btn a{
+    text-decoration: none;
+    background-color: red;
+    padding: 10px 20px;
+    color: white;
+    font-size: 17px;
+}
+.club-btn a:hover{
+    box-shadow: 0 0 10px 10px white;
+}
+
+/* ------------------------Facilities Section-------------------------- */
+.facilities{
+    width: 100%;
+    height: 650px;
+    position: relative;
+}
+.facilities img{
+    position: absolute;
+    width: 45%;
+    top: 13.5%;
+    left: 3.5%;
+    z-index: 2;
+    border-radius: 40px 0 0 40px ;
+    -webkit-border-radius: 40px 0 0 40px ;
+    -moz-border-radius: 40px 0 0 40px ;
+    -ms-border-radius: 40px 0 0 40px ;
+    -o-border-radius: 40px 0 0 40px ;
+}
+.facilities p{
+    position: absolute;
+    right: 4.5%;
+    top: 10%;
+    width: 50%;
+    z-index: 1;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 5px solid #27cf11;
+    padding: 30px 30px 30px 70px;
+    font-size: 19px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.fac-btn{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+    position: absolute;
+    bottom: 3%;
+}
+.fac-btn a{
+    text-decoration: none;
+    background-color: red;
+    padding: 10px 20px;
+    color: white;
+    font-size: 18px;
+}
+.fac-btn a:hover{
+    box-shadow: 0 0 10px 10px #27cf11;
+}
+
+/* -------------------------Admission Section------------------------- */
+#admissions{
+    background-image: url(images/class1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.admission-cards{
+    background-color: rgba(0, 0, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.admi-icon{
+    font-size: 80px;
+    color: blue;
+}
+.admi-card1:hover .admi-icon,
+.admi-card2:hover .admi-icon,
+.admi-card3:hover .admi-icon{
+    color: red;
+}
+.admi-card1, .admi-card2, .admi-card3{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px 30px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.admi-card1:hover, .admi-card2:hover, .admi-card3:hover{
+    background-color: #27cf11;
+    color: yellow;
+}
+.admi-card1{
+    width: 25%;
+    margin-right: 40px;
+}
+.admi-card2{
+    width: 20%;
+    margin-right: 40px;
+}
+.admi-card3{
+    width: 20%;
+}
+.admi-text{
+    margin-bottom: 30px;
+}
+.admi-btn{
+    margin-bottom: 20px;
+}
+.admi-btn a{
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    font-size: 17px;
+}
+.admi-card1:hover .admi-btn a,
+.admi-card2:hover .admi-btn a,
+.admi-card3:hover .admi-btn a{
+    color: white;
+    background-color: red;
+}
